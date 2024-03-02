@@ -1,0 +1,3173 @@
+{
+    "CPSC": {
+        "100": {
+            "name": "Computational Thinking",
+            "description": "Meaning and impact of computational thinking. Solving problems using computational thinking, testing, debugging. How computers work. No prior computing experience required. Not for students with existing credit for or exemption from CPSC 107, CPSC 110 or APSC 160.",
+            "credits": "3",
+            "days": {
+                "101": {
+                    "Mon": [
+                        "15:00",
+                        "16:00"
+                    ],
+                    "Wed": [
+                        "15:00",
+                        "16:00"
+                    ],
+                    "Fri": [
+                        "15:00",
+                        "16:00"
+                    ]
+                },
+                "201": {
+                    "Mon": [
+                        "15:00",
+                        "16:00"
+                    ],
+                    "Wed": [
+                        "15:00",
+                        "16:00"
+                    ],
+                    "Fri": [
+                        "15:00",
+                        "16:00"
+                    ]
+                }
+            },
+            "pre_req_raw": "",
+            "sections": [
+                "101",
+                "201"
+            ],
+            "instructors": {
+                "101": [
+                    "OLA, OLUWAKEMI"
+                ],
+                "201": [
+                    "OLA, OLUWAKEMI"
+                ]
+            }
+        },
+        "103": {
+            "name": "Introduction to Systematic Program Design",
+            "description": "Computation as a tool for systematic problem solving in non-computer-science disciplines. Introductory programming skills. Not for credit for students who have credit for, or exemption from, or are concurrently taking CPSC 110 or APSC 160. No programming experience expected.",
+            "credits": "3",
+            "days": {
+                "101": {
+                    "Tue": [
+                        "9:30",
+                        "11:00"
+                    ],
+                    "Thu": [
+                        "9:30",
+                        "11:00"
+                    ]
+                },
+                "102": {
+                    "Tue": [
+                        "14:00",
+                        "15:30"
+                    ],
+                    "Thu": [
+                        "14:00",
+                        "15:30"
+                    ]
+                },
+                "201": {
+                    "Tue": [
+                        "11:00",
+                        "12:30"
+                    ],
+                    "Thu": [
+                        "11:00",
+                        "12:30"
+                    ]
+                },
+                "202": {
+                    "Tue": [
+                        "15:30",
+                        "17:00"
+                    ],
+                    "Thu": [
+                        "15:30",
+                        "17:00"
+                    ]
+                }
+            },
+            "pre_req_raw": "",
+            "sections": [
+                "101",
+                "102",
+                "201",
+                "202"
+            ],
+            "instructors": {
+                "101": [
+                    "MITCHELL, IAN",
+                    "WONG, JESSICA"
+                ],
+                "102": [
+                    "BLOK, HENDRIK"
+                ],
+                "201": [
+                    "TOTI, GIULIA"
+                ],
+                "202": [
+                    "TOTI, GIULIA"
+                ]
+            }
+        },
+        "107": {
+            "name": "Systematic Program Design",
+            "description": "Fundamental computation and program structures. Continuing systematic program design from CPSC 103.",
+            "credits": "3",
+            "days": {
+                "207": {
+                    "Mon": [
+                        "13:00",
+                        "14:00"
+                    ],
+                    "Wed": [
+                        "13:00",
+                        "14:00"
+                    ],
+                    "Fri": [
+                        "13:00",
+                        "14:00"
+                    ]
+                }
+            },
+            "pre_req_raw": "Pre-reqs:     CPSC 103. ",
+            "sections": [
+                "207"
+            ],
+            "instructors": {
+                "207": [
+                    "BLOK, HENDRIK"
+                ]
+            }
+        },
+        "110": {
+            "name": "Computation, Programs, and Programming",
+            "description": "Fundamental program and computation structures. Introductory programming skills. Computation as a tool for information processing, simulation and modelling, and interacting with the world.",
+            "credits": "4",
+            "days": {
+                "101": {
+                    "Tue": [
+                        "9:30",
+                        "11:00"
+                    ],
+                    "Thu": [
+                        "9:30",
+                        "11:00"
+                    ]
+                },
+                "102": {
+                    "Tue": [
+                        "12:30",
+                        "14:00"
+                    ],
+                    "Thu": [
+                        "12:30",
+                        "14:00"
+                    ]
+                },
+                "201": {
+                    "Tue": [
+                        "12:30",
+                        "14:00"
+                    ],
+                    "Thu": [
+                        "12:30",
+                        "14:00"
+                    ]
+                },
+                "203": {
+                    "Tue": [
+                        "9:30",
+                        "11:00"
+                    ],
+                    "Thu": [
+                        "9:30",
+                        "11:00"
+                    ]
+                }
+            },
+            "pre_req_raw": "",
+            "sections": [
+                "101",
+                "102",
+                "201",
+                "203"
+            ],
+            "instructors": {
+                "101": [
+                    "KICZALES, GREGOR"
+                ],
+                "102": [
+                    "KICZALES, GREGOR"
+                ],
+                "201": [
+                    "HUTCHINSON, NORMAN",
+                    "KICZALES, GREGOR"
+                ],
+                "203": [
+                    "HUTCHINSON, NORMAN",
+                    "KICZALES, GREGOR"
+                ]
+            }
+        },
+        "121": {
+            "name": "Models of Computation",
+            "description": "Physical and mathematical structures of computation.  Boolean algebra and combinations logic circuits; proof techniques; functions and sequential circuits; sets and relations; finite state machines; sequential instruction execution.",
+            "credits": "4",
+            "days": {
+                "101": {
+                    "Tue": [
+                        "9:30",
+                        "11:00"
+                    ],
+                    "Thu": [
+                        "9:30",
+                        "11:00"
+                    ]
+                },
+                "102": {
+                    "Tue": [
+                        "12:30",
+                        "14:00"
+                    ],
+                    "Thu": [
+                        "12:30",
+                        "14:00"
+                    ]
+                },
+                "103": {
+                    "Tue": [
+                        "17:00",
+                        "18:30"
+                    ],
+                    "Thu": [
+                        "17:00",
+                        "18:30"
+                    ]
+                },
+                "201": {
+                    "Tue": [
+                        "12:30",
+                        "14:00"
+                    ],
+                    "Thu": [
+                        "12:30",
+                        "14:00"
+                    ]
+                },
+                "202": {
+                    "Tue": [
+                        "15:30",
+                        "17:00"
+                    ],
+                    "Thu": [
+                        "15:30",
+                        "17:00"
+                    ]
+                },
+                "203": {
+                    "Tue": [
+                        "17:00",
+                        "18:30"
+                    ],
+                    "Thu": [
+                        "17:00",
+                        "18:30"
+                    ]
+                }
+            },
+            "pre_req_raw": "Pre-reqs:      (Principles of Mathematics 12 or Pre-calculus 12.)",
+            "sections": [
+                "101",
+                "102",
+                "103",
+                "201",
+                "202",
+                "203"
+            ],
+            "instructors": {
+                "101": [
+                    "HOSSEINI, SEYYED"
+                ],
+                "102": [
+                    "MOCHETTI DE MAGALHAES, KARINA"
+                ],
+                "103": [
+                    "MOCHETTI DE MAGALHAES, KARINA"
+                ],
+                "201": [
+                    "MOCHETTI DE MAGALHAES, KARINA"
+                ],
+                "202": [
+                    "MOCHETTI DE MAGALHAES, KARINA"
+                ],
+                "203": [
+                    "MOCHETTI DE MAGALHAES, KARINA"
+                ]
+            }
+        },
+        "203": {
+            "name": "Programming, Problem Solving, and Algorithms",
+            "description": "Analysis of increasingly complex algorithmic problems, using a modern programming language and a variety of approaches. Problem decomposition and abstraction guide explorations of topics from applied algorithms, for example Voronoi Diagrams, Markov Chains, Bin Packing, and Graph Search. Not for students with credit for, or currently enrolled in, CPSC 210 or CPEN 221.",
+            "credits": "3",
+            "days": {
+                "201": {
+                    "Tue": [
+                        "11:00",
+                        "12:30"
+                    ],
+                    "Thu": [
+                        "11:00",
+                        "12:30"
+                    ]
+                }
+            },
+            "pre_req_raw": "Pre-reqs:     One of CPSC 103, CPSC 110, APSC 160, EOSC 211, MATH 210, PHYS 210, COMM 337. ",
+            "sections": [
+                "201"
+            ],
+            "instructors": {
+                "201": [
+                    "MOOSVI, FIRAS"
+                ]
+            }
+        },
+        "210": {
+            "name": "Software Construction",
+            "description": "Design, development, and analysis of robust software components. Topics such as software design, computational models, data structures, debugging, and testing.",
+            "credits": "4",
+            "days": {
+                "101": {
+                    "Mon": [
+                        "11:00",
+                        "12:00"
+                    ],
+                    "Wed": [
+                        "11:00",
+                        "12:00"
+                    ],
+                    "Fri": [
+                        "11:00",
+                        "12:00"
+                    ]
+                },
+                "102": {
+                    "Mon": [
+                        "14:00",
+                        "15:00"
+                    ],
+                    "Wed": [
+                        "14:00",
+                        "15:00"
+                    ],
+                    "Fri": [
+                        "14:00",
+                        "15:00"
+                    ]
+                },
+                "103": {
+                    "Mon": [
+                        "16:00",
+                        "17:00"
+                    ],
+                    "Wed": [
+                        "16:00",
+                        "17:00"
+                    ],
+                    "Fri": [
+                        "16:00",
+                        "17:00"
+                    ]
+                },
+                "201": {
+                    "Mon": [
+                        "10:00",
+                        "11:00"
+                    ],
+                    "Wed": [
+                        "10:00",
+                        "11:00"
+                    ],
+                    "Fri": [
+                        "10:00",
+                        "11:00"
+                    ]
+                },
+                "202": {
+                    "Mon": [
+                        "11:00",
+                        "12:00"
+                    ],
+                    "Wed": [
+                        "11:00",
+                        "12:00"
+                    ],
+                    "Fri": [
+                        "11:00",
+                        "12:00"
+                    ]
+                },
+                "203": {
+                    "Mon": [
+                        "15:00",
+                        "16:00"
+                    ],
+                    "Wed": [
+                        "15:00",
+                        "16:00"
+                    ],
+                    "Fri": [
+                        "15:00",
+                        "16:00"
+                    ]
+                }
+            },
+            "pre_req_raw": "Pre-reqs:     One of CPSC 107, CPSC 110. ",
+            "sections": [
+                "101",
+                "102",
+                "103",
+                "201",
+                "202",
+                "203"
+            ],
+            "instructors": {
+                "101": [
+                    "CARTER, PAUL"
+                ],
+                "102": [
+                    "CARTER, PAUL"
+                ],
+                "103": [
+                    "OVEISI-FORDOEI, MEHRDAD"
+                ],
+                "201": [
+                    "GRUND, FELIX"
+                ],
+                "202": [
+                    "MOOSVI, FIRAS"
+                ],
+                "203": [
+                    "GRUND, FELIX"
+                ]
+            }
+        },
+        "213": {
+            "name": "Introduction to Computer Systems",
+            "description": "Software architecture, operating systems, and I/O architectures.  Relationships between application software, operating systems, and computing hardware; critical sections, deadlock avoidance, and performance; principles and operation of disks and networks.",
+            "credits": "4",
+            "days": {
+                "101": {
+                    "Tue": [
+                        "12:30",
+                        "14:00"
+                    ],
+                    "Thu": [
+                        "12:30",
+                        "14:00"
+                    ]
+                },
+                "102": {
+                    "Tue": [
+                        "17:00",
+                        "18:30"
+                    ],
+                    "Thu": [
+                        "17:00",
+                        "18:30"
+                    ]
+                },
+                "203": {
+                    "Mon": [
+                        "14:00",
+                        "15:00"
+                    ],
+                    "Wed": [
+                        "14:00",
+                        "15:00"
+                    ],
+                    "Fri": [
+                        "14:00",
+                        "15:00"
+                    ]
+                },
+                "204": {
+                    "Mon": [
+                        "9:00",
+                        "10:00"
+                    ],
+                    "Wed": [
+                        "9:00",
+                        "10:00"
+                    ],
+                    "Fri": [
+                        "9:00",
+                        "10:00"
+                    ]
+                },
+                "205": {
+                    "Mon": [
+                        "11:00",
+                        "12:00"
+                    ],
+                    "Wed": [
+                        "11:00",
+                        "12:00"
+                    ],
+                    "Fri": [
+                        "11:00",
+                        "12:00"
+                    ]
+                }
+            },
+            "pre_req_raw": "Pre-reqs:     All of CPSC 121, CPSC 210. ",
+            "sections": [
+                "101",
+                "102",
+                "203",
+                "204",
+                "205"
+            ],
+            "instructors": {
+                "101": [
+                    "JOHNSON, JORDON"
+                ],
+                "102": [
+                    "FEELEY, MICHAEL"
+                ],
+                "203": [
+                    "TIEN, GEOFFREY"
+                ],
+                "204": [
+                    "TIEN, GEOFFREY"
+                ],
+                "205": [
+                    "JOHNSON, JORDON"
+                ]
+            }
+        },
+        "221": {
+            "name": "Basic Algorithms and Data Structures",
+            "description": "Design and analysis of basic algorithms and data structures; algorithm analysis methods, searching and sorting algorithms, basic data structures, graphs and concurrency.",
+            "credits": "4",
+            "days": {
+                "101": {
+                    "Mon": [
+                        "14:00",
+                        "15:00"
+                    ],
+                    "Wed": [
+                        "14:00",
+                        "15:00"
+                    ],
+                    "Fri": [
+                        "14:00",
+                        "15:00"
+                    ]
+                },
+                "102": {
+                    "Mon": [
+                        "15:00",
+                        "16:00"
+                    ],
+                    "Wed": [
+                        "15:00",
+                        "16:00"
+                    ],
+                    "Fri": [
+                        "15:00",
+                        "16:00"
+                    ]
+                },
+                "201": {
+                    "Mon": [
+                        "13:00",
+                        "14:00"
+                    ],
+                    "Wed": [
+                        "13:00",
+                        "14:00"
+                    ],
+                    "Fri": [
+                        "13:00",
+                        "14:00"
+                    ]
+                },
+                "202": {
+                    "Mon": [
+                        "16:00",
+                        "17:00"
+                    ],
+                    "Wed": [
+                        "16:00",
+                        "17:00"
+                    ],
+                    "Fri": [
+                        "16:00",
+                        "17:00"
+                    ]
+                },
+                "203": {
+                    "Mon": [
+                        "12:00",
+                        "13:00"
+                    ],
+                    "Wed": [
+                        "12:00",
+                        "13:00"
+                    ],
+                    "Fri": [
+                        "12:00",
+                        "13:00"
+                    ]
+                }
+            },
+            "pre_req_raw": "Pre-reqs:     One of CPSC 210, CPEN 221 and either (a) one of CPSC 121, MATH 220 or (b) a score of 68% or higher in MATH 226. ",
+            "sections": [
+                "101",
+                "102",
+                "201",
+                "202",
+                "203"
+            ],
+            "instructors": {
+                "101": [
+                    "LYNOV, VSEVOLOD"
+                ],
+                "102": [
+                    "TIEN, GEOFFREY"
+                ],
+                "201": [
+                    "LYNOV, VSEVOLOD"
+                ],
+                "202": [
+                    "TIEN, GEOFFREY"
+                ],
+                "203": [
+                    "LYNOV, VSEVOLOD"
+                ]
+            }
+        },
+        "259": {
+            "name": "Data Structures and Algorithms for Electrical Engineers",
+            "description": "Advanced procedural programming.  Fundamental algorithms for sorting and searching.  Data structures including lists, trees, and hash tables.  Introduction to scripting languages and file input/output.",
+            "credits": "4",
+            "days": {
+                "101": {
+                    "Mon": [
+                        "8:00",
+                        "9:00"
+                    ],
+                    "Wed": [
+                        "8:00",
+                        "9:00"
+                    ],
+                    "Fri": [
+                        "8:00",
+                        "9:00"
+                    ]
+                }
+            },
+            "pre_req_raw": "Pre-reqs:     APSC 160. ",
+            "sections": [
+                "101"
+            ],
+            "instructors": {
+                "101": [
+                    "TIEN, GEOFFREY"
+                ]
+            }
+        },
+        "298": {
+            "name": "Co-operative Work Placement I",
+            "description": "Approved and supervised technical work experience in the computing industry for a minimum of 3.5 months. Normally taken during Winter Session of second year. Technical report required. Restricted to students admitted to the Co-operative Education Program in Computer Science.",
+            "credits": "3",
+            "days": {},
+            "pre_req_raw": "",
+            "sections": [],
+            "instructors": {}
+        },
+        "302": {
+            "name": "Numerical Computation for Algebraic Problems",
+            "description": "Numerical techniques for basic mathematical processes involving no discretization, and their analysis. Solution of linear systems, including analysis of round-off errors; norms and condition number; introduction to iterative techniques in linear algebra, including eigenvalue problems; solution to nonlinear equations.",
+            "credits": "3",
+            "days": {
+                "101": {
+                    "Mon": [
+                        "13:00",
+                        "14:00"
+                    ],
+                    "Wed": [
+                        "13:00",
+                        "14:00"
+                    ],
+                    "Fri": [
+                        "13:00",
+                        "14:00"
+                    ]
+                }
+            },
+            "pre_req_raw": "Pre-reqs:     One of CPSC 103, CPSC 110, CPEN 221, EOSC 211, PHYS 210 and one of MATH 101, MATH 103, MATH 105, MATH 121, SCIE 001 and one of MATH 152, MATH 221, MATH 223. ",
+            "sections": [
+                "101"
+            ],
+            "instructors": {
+                "101": [
+                    "GREIF, CHEN"
+                ]
+            }
+        },
+        "303": {
+            "name": "Numerical Approximation and Discretization",
+            "description": "Numerical techniques for basic mathematical processes involving discretization, and their analysis. Interpolation and approximation, including splines and least squares data fitting; numerical differentiation and integration; introduction to numerical initial value ordinary differential equations.",
+            "credits": "3",
+            "days": {
+                "201": {
+                    "Mon": [
+                        "14:00",
+                        "15:00"
+                    ],
+                    "Wed": [
+                        "14:00",
+                        "15:00"
+                    ],
+                    "Fri": [
+                        "14:00",
+                        "15:00"
+                    ]
+                }
+            },
+            "pre_req_raw": "Pre-reqs:     One of CPSC 103, CPSC 110, CPEN 221, EOSC 211, PHYS 210 and one of MATH 101, MATH 103, MATH 105, MATH 121, SCIE 001 and one of MATH 152, MATH 221, MATH 223. ",
+            "sections": [
+                "201"
+            ],
+            "instructors": {
+                "201": [
+                    "FRIEDMAN, JOEL"
+                ]
+            }
+        },
+        "304": {
+            "name": "Introduction to Relational Databases",
+            "description": "Overview of database systems, ER models, logical database design and normalization, formal relational query languages, SQL and other commercial languages,data warehouses, special topics.",
+            "credits": "3",
+            "days": {
+                "101": {
+                    "Tue": [
+                        "15:30",
+                        "17:00"
+                    ],
+                    "Thu": [
+                        "15:30",
+                        "17:00"
+                    ]
+                },
+                "102": {
+                    "Tue": [
+                        "12:30",
+                        "14:00"
+                    ],
+                    "Thu": [
+                        "12:30",
+                        "14:00"
+                    ]
+                },
+                "103": {
+                    "Wed": [
+                        "15:30",
+                        "17:00"
+                    ],
+                    "Fri": [
+                        "15:30",
+                        "17:00"
+                    ]
+                },
+                "201": {
+                    "Mon": [
+                        "15:30",
+                        "17:00"
+                    ],
+                    "Wed": [
+                        "15:30",
+                        "17:00"
+                    ]
+                },
+                "202": {
+                    "Tue": [
+                        "17:00",
+                        "18:30"
+                    ],
+                    "Thu": [
+                        "17:00",
+                        "18:30"
+                    ]
+                }
+            },
+            "pre_req_raw": "Pre-reqs:     CPSC 221. ",
+            "sections": [
+                "101",
+                "102",
+                "103",
+                "201",
+                "202"
+            ],
+            "instructors": {
+                "101": [
+                    "POTTINGER, RACHEL"
+                ],
+                "102": [
+                    "GEORGE, GITTU",
+                    "WONG, JESSICA"
+                ],
+                "103": [
+                    "LYNOV, VSEVOLOD"
+                ],
+                "201": [
+                    "LYNOV, VSEVOLOD"
+                ],
+                "202": [
+                    "NG, RAYMOND TAK-YAN"
+                ]
+            }
+        },
+        "310": {
+            "name": "Introduction to Software Engineering",
+            "description": "Specification, design, validation, evolution and construction of modern software systems, within the context of socially and professionally relevant domains such as ethics, intellectual property, and information security.",
+            "credits": "4",
+            "days": {
+                "101": {
+                    "Tue": [
+                        "8:00",
+                        "9:30"
+                    ],
+                    "Thu": [
+                        "8:00",
+                        "9:30"
+                    ]
+                },
+                "102": {
+                    "Tue": [
+                        "14:00",
+                        "15:30"
+                    ],
+                    "Thu": [
+                        "14:00",
+                        "15:30"
+                    ]
+                },
+                "201": {
+                    "Tue": [
+                        "8:00",
+                        "9:30"
+                    ],
+                    "Thu": [
+                        "8:00",
+                        "9:30"
+                    ]
+                },
+                "202": {
+                    "Tue": [
+                        "15:30",
+                        "17:00"
+                    ],
+                    "Thu": [
+                        "15:30",
+                        "17:00"
+                    ]
+                },
+                "203": {
+                    "Tue": [
+                        "14:00",
+                        "15:30"
+                    ],
+                    "Thu": [
+                        "14:00",
+                        "15:30"
+                    ]
+                }
+            },
+            "pre_req_raw": "Pre-reqs:     All of CPSC 213, CPSC 221. ",
+            "sections": [
+                "101",
+                "102",
+                "201",
+                "202",
+                "203"
+            ],
+            "instructors": {
+                "101": [
+                    "HOLMES, REID"
+                ],
+                "102": [
+                    "HOLMES, REID"
+                ],
+                "201": [
+                    "BRADLEY, NICHOLAS",
+                    "KERR, KATHARINE"
+                ],
+                "202": [
+                    "BRADLEY, NICHOLAS",
+                    "KERR, KATHARINE"
+                ],
+                "203": [
+                    "BRADLEY, NICHOLAS",
+                    "KERR, KATHARINE"
+                ]
+            }
+        },
+        "311": {
+            "name": "Definition of Programming Languages",
+            "description": "Comparative study of advanced programming language features. Statement types, data types, variable binding, parameter passing mechanisms. Methods for syntactic and semantic description of programming languages.",
+            "credits": "3",
+            "days": {
+                "101": {
+                    "Mon": [
+                        "10:00",
+                        "11:00"
+                    ],
+                    "Wed": [
+                        "10:00",
+                        "11:00"
+                    ],
+                    "Fri": [
+                        "10:00",
+                        "11:00"
+                    ]
+                }
+            },
+            "pre_req_raw": "Pre-reqs:     CPSC 210. ",
+            "sections": [
+                "101"
+            ],
+            "instructors": {
+                "101": [
+                    "GARCIA, RONALD"
+                ]
+            }
+        },
+        "312": {
+            "name": "Functional and Logic Programming",
+            "description": "Principles of symbolic computing, using languages based upon first-order logic and the lambda calculus. Algorithms for implementing such languages. Applications to artificial intelligence and knowledge representation.",
+            "credits": "3",
+            "days": {
+                "201": {
+                    "Mon": [
+                        "12:00",
+                        "13:00"
+                    ],
+                    "Wed": [
+                        "12:00",
+                        "13:00"
+                    ],
+                    "Fri": [
+                        "12:00",
+                        "13:00"
+                    ]
+                }
+            },
+            "pre_req_raw": "Pre-reqs:     One of CPSC 210, CPEN 221. ",
+            "sections": [
+                "201"
+            ],
+            "instructors": {
+                "201": [
+                    "POOLE, DAVID"
+                ]
+            }
+        },
+        "313": {
+            "name": "Computer Hardware and Operating Systems",
+            "description": "Instruction sets, pipelining, code optimization, caching, virtual memory management, dynamically linked libraries, exception processing, execution time of programs.",
+            "credits": "3",
+            "days": {
+                "101": {
+                    "Mon": [
+                        "16:00",
+                        "17:00"
+                    ],
+                    "Wed": [
+                        "16:00",
+                        "17:00"
+                    ],
+                    "Fri": [
+                        "16:00",
+                        "17:00"
+                    ]
+                },
+                "102": {
+                    "Mon": [
+                        "11:00",
+                        "12:00"
+                    ],
+                    "Wed": [
+                        "11:00",
+                        "12:00"
+                    ],
+                    "Fri": [
+                        "11:00",
+                        "12:00"
+                    ]
+                },
+                "203": {
+                    "Mon": [
+                        "11:00",
+                        "12:00"
+                    ],
+                    "Wed": [
+                        "11:00",
+                        "12:00"
+                    ],
+                    "Fri": [
+                        "11:00",
+                        "12:00"
+                    ]
+                },
+                "204": {
+                    "Mon": [
+                        "14:00",
+                        "15:00"
+                    ],
+                    "Wed": [
+                        "14:00",
+                        "15:00"
+                    ],
+                    "Fri": [
+                        "14:00",
+                        "15:00"
+                    ]
+                }
+            },
+            "pre_req_raw": "Pre-reqs:     All of CPSC 213, CPSC 221. ",
+            "sections": [
+                "101",
+                "102",
+                "203",
+                "204"
+            ],
+            "instructors": {
+                "101": [
+                    "HUTCHINSON, NORMAN",
+                    "WOLFMAN, STEVEN"
+                ],
+                "102": [
+                    "HUTCHINSON, NORMAN",
+                    "WOLFMAN, STEVEN"
+                ],
+                "203": [
+                    "WOLFMAN, STEVEN"
+                ],
+                "204": [
+                    "WOLFMAN, STEVEN"
+                ]
+            }
+        },
+        "314": {
+            "name": "Computer Graphics",
+            "description": "Human vision and colour; geometric transformations; algorithms for 2-D and 3-D graphics; hardware and system architectures; shading and lighting; animation.",
+            "credits": "3",
+            "days": {
+                "101": {
+                    "Tue": [
+                        "15:30",
+                        "17:00"
+                    ],
+                    "Thu": [
+                        "15:30",
+                        "17:00"
+                    ]
+                },
+                "201": {
+                    "Mon": [
+                        "10:00",
+                        "11:00"
+                    ],
+                    "Wed": [
+                        "10:00",
+                        "11:00"
+                    ],
+                    "Fri": [
+                        "10:00",
+                        "11:00"
+                    ]
+                }
+            },
+            "pre_req_raw": "Pre-reqs:     CPSC 221 and one of MATH 200, MATH 217, MATH 226, MATH 253 and one of MATH 152, MATH 221, MATH 223. ",
+            "sections": [
+                "101",
+                "201"
+            ],
+            "instructors": {
+                "101": [
+                    "VAN DE PANNE, MICHIEL"
+                ],
+                "201": [
+                    "PAI, DINESH"
+                ]
+            }
+        },
+        "317": {
+            "name": "Introduction to Computer Networking",
+            "description": "Computer networking, basic communication protocols, network infrastructure and routing.  Common application-level protocols and principles associated with developing distributed applications.",
+            "credits": "3",
+            "days": {
+                "101": {
+                    "Mon": [
+                        "9:00",
+                        "10:00"
+                    ],
+                    "Wed": [
+                        "9:00",
+                        "10:00"
+                    ],
+                    "Fri": [
+                        "9:00",
+                        "10:00"
+                    ]
+                },
+                "201": {
+                    "Mon": [
+                        "15:00",
+                        "16:00"
+                    ],
+                    "Wed": [
+                        "15:00",
+                        "16:00"
+                    ],
+                    "Fri": [
+                        "15:00",
+                        "16:00"
+                    ]
+                },
+                "202": {
+                    "Mon": [
+                        "12:00",
+                        "13:00"
+                    ],
+                    "Wed": [
+                        "12:00",
+                        "13:00"
+                    ],
+                    "Fri": [
+                        "12:00",
+                        "13:00"
+                    ]
+                }
+            },
+            "pre_req_raw": "Pre-reqs:     All of CPSC 213, CPSC 221. ",
+            "sections": [
+                "101",
+                "201",
+                "202"
+            ],
+            "instructors": {
+                "101": [
+                    "HUTCHINSON, NORMAN"
+                ],
+                "201": [
+                    "HUTCHINSON, NORMAN",
+                    "MEHTA, AASTHA"
+                ],
+                "202": [
+                    "MEHTA, AASTHA"
+                ]
+            }
+        },
+        "319": {
+            "name": "Software Engineering Project",
+            "description": "The design, implementation, and test of a large software system, using a team approach.",
+            "credits": "4",
+            "days": {
+                "201": {
+                    "Mon": [
+                        "18:30",
+                        "20:00"
+                    ],
+                    "Wed": [
+                        "18:30",
+                        "20:00"
+                    ]
+                }
+            },
+            "pre_req_raw": "Pre-reqs:     CPSC 310. ",
+            "sections": [
+                "201"
+            ],
+            "instructors": {
+                "201": [
+                    "JIM, JERRY"
+                ]
+            }
+        },
+        "320": {
+            "name": "Intermediate Algorithm Design and Analysis",
+            "description": "Systematic study of basic concepts and techniques in the design and analysis of algorithms, illustrated from various problem areas. Topics include: models of computation; choice of data structures; graph-theoretic, algebraic, and text processing algorithms.",
+            "credits": "3",
+            "days": {
+                "101": {
+                    "Mon": [
+                        "14:00",
+                        "15:00"
+                    ],
+                    "Wed": [
+                        "14:00",
+                        "15:00"
+                    ],
+                    "Fri": [
+                        "14:00",
+                        "15:00"
+                    ]
+                },
+                "102": {
+                    "Mon": [
+                        "9:00",
+                        "10:00"
+                    ],
+                    "Wed": [
+                        "9:00",
+                        "10:00"
+                    ],
+                    "Fri": [
+                        "9:00",
+                        "10:00"
+                    ]
+                },
+                "201": {
+                    "Mon": [
+                        "10:00",
+                        "11:00"
+                    ],
+                    "Wed": [
+                        "10:00",
+                        "11:00"
+                    ],
+                    "Fri": [
+                        "10:00",
+                        "11:00"
+                    ]
+                },
+                "202": {
+                    "Mon": [
+                        "16:00",
+                        "17:00"
+                    ],
+                    "Wed": [
+                        "16:00",
+                        "17:00"
+                    ],
+                    "Fri": [
+                        "16:00",
+                        "17:00"
+                    ]
+                },
+                "203": {
+                    "Mon": [
+                        "13:00",
+                        "14:00"
+                    ],
+                    "Wed": [
+                        "13:00",
+                        "14:00"
+                    ],
+                    "Fri": [
+                        "13:00",
+                        "14:00"
+                    ]
+                }
+            },
+            "pre_req_raw": "Pre-reqs:     CPSC 221. (and at least 3 credits from COMM 291, BIOL 300, MATH or STAT at 200 level or above.)",
+            "sections": [
+                "101",
+                "102",
+                "201",
+                "202",
+                "203"
+            ],
+            "instructors": {
+                "101": [
+                    "CONDON, ANNE",
+                    "LOVROD, JORDAN KARI",
+                    "OVEISI-FORDOEI, MEHRDAD"
+                ],
+                "102": [
+                    "CONDON, ANNE",
+                    "LOVROD, JORDAN KARI",
+                    "OVEISI-FORDOEI, MEHRDAD"
+                ],
+                "201": [
+                    "BRADLEY, SUSANNE"
+                ],
+                "202": [
+                    "SHEPHERD, FREDERICK"
+                ],
+                "203": [
+                    "BRADLEY, SUSANNE"
+                ]
+            }
+        },
+        "322": {
+            "name": "Introduction to Artificial Intelligence",
+            "description": "Problem-solving and planning; state/action models and graph searching. Natural language understanding Computational vision. Applications of artificial intelligence.",
+            "credits": "3",
+            "days": {
+                "101": {
+                    "Tue": [
+                        "14:00",
+                        "15:30"
+                    ],
+                    "Thu": [
+                        "14:00",
+                        "15:30"
+                    ]
+                },
+                "201": {
+                    "Tue": [
+                        "17:00",
+                        "18:30"
+                    ],
+                    "Thu": [
+                        "17:00",
+                        "18:30"
+                    ]
+                }
+            },
+            "pre_req_raw": "Pre-reqs:     CPSC 221. ",
+            "sections": [
+                "101",
+                "201"
+            ],
+            "instructors": {
+                "101": [
+                    "JOHNSON, JORDON"
+                ],
+                "201": [
+                    "OVEISI-FORDOEI, MEHRDAD"
+                ]
+            }
+        },
+        "330": {
+            "name": "Applied Machine Learning",
+            "description": "Application of machine learning tools, with an emphasis on solving practical problems. Data cleaning, feature extraction, supervised and unsupervised machine learning, reproducible workflows, and communicating results.",
+            "credits": "3",
+            "days": {
+                "101": {
+                    "Tue": [
+                        "15:30",
+                        "17:00"
+                    ],
+                    "Thu": [
+                        "15:30",
+                        "17:00"
+                    ]
+                },
+                "102": {
+                    "Tue": [
+                        "11:00",
+                        "12:30"
+                    ],
+                    "Thu": [
+                        "11:00",
+                        "12:30"
+                    ]
+                },
+                "201": {
+                    "Tue": [
+                        "9:30",
+                        "11:00"
+                    ],
+                    "Thu": [
+                        "9:30",
+                        "11:00"
+                    ]
+                },
+                "202": {
+                    "Tue": [
+                        "15:30",
+                        "17:00"
+                    ],
+                    "Thu": [
+                        "15:30",
+                        "17:00"
+                    ]
+                }
+            },
+            "pre_req_raw": "Pre-reqs:     Either (a) one of CPSC 203, CPSC 210, CPEN 221 or (b) MATH 210 and one of CPSC 107, CPSC 110. ",
+            "sections": [
+                "101",
+                "102",
+                "201",
+                "202"
+            ],
+            "instructors": {
+                "101": [
+                    "ROTH, ANDREW"
+                ],
+                "102": [
+                    "KOLHATKAR, VARADA"
+                ],
+                "201": [
+                    "LECUYER, MATHIAS"
+                ],
+                "202": [
+                    "OVEISI-FORDOEI, MEHRDAD"
+                ]
+            }
+        },
+        "340": {
+            "name": "Machine Learning and Data Mining",
+            "description": "Models of algorithms for dimensionality reduction, nonlinear regression, classification, clustering and unsupervised learning; applications to computer graphics, computer games, bio-informatics, information retrieval, e-commerce, databases, computer vision and artificial intelligence.",
+            "credits": "3",
+            "days": {
+                "101": {
+                    "Mon": [
+                        "12:00",
+                        "13:00"
+                    ],
+                    "Wed": [
+                        "12:00",
+                        "13:00"
+                    ],
+                    "Fri": [
+                        "12:00",
+                        "13:00"
+                    ]
+                },
+                "102": {
+                    "Mon": [
+                        "16:00",
+                        "17:00"
+                    ],
+                    "Wed": [
+                        "16:00",
+                        "17:00"
+                    ],
+                    "Fri": [
+                        "16:00",
+                        "17:00"
+                    ]
+                },
+                "201": {
+                    "Mon": [
+                        "12:00",
+                        "13:00"
+                    ],
+                    "Wed": [
+                        "12:00",
+                        "13:00"
+                    ],
+                    "Fri": [
+                        "12:00",
+                        "13:00"
+                    ]
+                },
+                "202": {
+                    "Mon": [
+                        "14:00",
+                        "15:00"
+                    ],
+                    "Wed": [
+                        "14:00",
+                        "15:00"
+                    ],
+                    "Fri": [
+                        "14:00",
+                        "15:00"
+                    ]
+                }
+            },
+            "pre_req_raw": "Pre-reqs:     CPSC 221 and one of MATH 152, MATH 221, MATH 223 and one of MATH 200, MATH 217, MATH 226, MATH 253, MATH 254 and one of STAT 241, STAT 251, ECON 325, ECON 327, MATH 302, STAT 302, MATH 318. ",
+            "sections": [
+                "101",
+                "102",
+                "201",
+                "202"
+            ],
+            "instructors": {
+                "101": [
+                    "CLUNE, JEFFREY",
+                    "SCHMIDT, MARK"
+                ],
+                "102": [
+                    "CLUNE, JEFFREY",
+                    "SCHMIDT, MARK"
+                ],
+                "201": [
+                    "CLUNE, JEFFREY",
+                    "DING, JIARUI"
+                ],
+                "202": [
+                    "CLUNE, JEFFREY",
+                    "DING, JIARUI"
+                ]
+            }
+        },
+        "344": {
+            "name": "Introduction to Human Computer Interaction Methods",
+            "description": "Basic tools and techniques, teaching a systematic approach to interface design, task analysis, analytic and empirical evaluation methods.",
+            "credits": "3",
+            "days": {
+                "101": {
+                    "Mon": [
+                        "15:30",
+                        "17:00"
+                    ],
+                    "Wed": [
+                        "15:30",
+                        "17:00"
+                    ]
+                },
+                "201": {
+                    "Mon": [
+                        "15:30",
+                        "17:00"
+                    ],
+                    "Wed": [
+                        "15:30",
+                        "17:00"
+                    ]
+                }
+            },
+            "pre_req_raw": "Pre-reqs:     One of CPSC 210, CPEN 221. ",
+            "sections": [
+                "101",
+                "201"
+            ],
+            "instructors": {
+                "101": [
+                    "SAYARA, ANIKA"
+                ],
+                "201": [
+                    "CANG, LAURA"
+                ]
+            }
+        },
+        "349": {
+            "name": "Honours Research Seminar",
+            "description": "Students will attend a series of research seminars presented by faculty members, produce a thesis proposal, and choose their honours thesis supervisor. Available to Honours students. Majors students with satisfactory standing may also be permitted to enrol.",
+            "credits": "0",
+            "days": {
+                "001": {
+                    "Thu": [
+                        "15:30",
+                        "17:00"
+                    ]
+                }
+            },
+            "pre_req_raw": "",
+            "sections": [
+                "001"
+            ],
+            "instructors": {
+                "001": [
+                    "GREENSTREET, MARK"
+                ]
+            }
+        },
+        "368": {
+            "name": "Databases in Data Science",
+            "description": "Overview of relational and non-relational database systems, role and usage of a database when querying data, data modelling, query languages, and query optimization.\r\n",
+            "credits": "3",
+            "days": {
+                "201": {
+                    "Tue": [
+                        "14:00",
+                        "15:30"
+                    ],
+                    "Thu": [
+                        "14:00",
+                        "15:30"
+                    ]
+                }
+            },
+            "pre_req_raw": "Pre-reqs:     One of CPSC 203, CPSC 210, CPEN 221. ",
+            "sections": [
+                "201"
+            ],
+            "instructors": {
+                "201": [
+                    "WONG, JESSICA"
+                ]
+            }
+        },
+        "404": {
+            "name": "Advanced Relational Databases",
+            "description": "Physical database design, indexing, external mergesort, relational query processing and optimization, transaction processing, concurrency control, crash recovery, special topics.",
+            "credits": "3",
+            "days": {
+                "101": {
+                    "Tue": [
+                        "15:30",
+                        "17:00"
+                    ],
+                    "Thu": [
+                        "15:30",
+                        "17:00"
+                    ]
+                },
+                "201": {
+                    "Tue": [
+                        "9:30",
+                        "11:00"
+                    ],
+                    "Thu": [
+                        "9:30",
+                        "11:00"
+                    ]
+                }
+            },
+            "pre_req_raw": "Pre-reqs:     CPSC 304 and one of CPSC 213, CPSC 261, CPEN 212. ",
+            "sections": [
+                "101",
+                "201"
+            ],
+            "instructors": {
+                "101": [
+                    "KNORR, EDWIN MAX"
+                ],
+                "201": [
+                    "CAO, JIANHAO"
+                ]
+            }
+        },
+        "406": {
+            "name": "Computational Optimization",
+            "description": "Formulation and analysis of algorithms for continuous and discrete optimization problems; linear, nonlinear, network, dynamic, and integer optimization; large-scale problems; software packages and their implementation; duality theory and sensitivity.",
+            "credits": "3",
+            "days": {
+                "201": {
+                    "Tue": [
+                        "11:00",
+                        "12:30"
+                    ],
+                    "Thu": [
+                        "11:00",
+                        "12:30"
+                    ]
+                }
+            },
+            "pre_req_raw": "Pre-reqs:     One of CPSC 302, CPSC 303, MATH 307. ",
+            "sections": [
+                "201"
+            ],
+            "instructors": {
+                "201": [
+                    "FRIEDLANDER, MICHAEL"
+                ]
+            }
+        },
+        "410": {
+            "name": "Advanced Software Engineering",
+            "description": "Specification, design, construction and validation of multi-version software systems.",
+            "credits": "3",
+            "days": {
+                "201": {
+                    "Tue": [
+                        "17:00",
+                        "18:30"
+                    ],
+                    "Thu": [
+                        "17:00",
+                        "18:30"
+                    ]
+                }
+            },
+            "pre_req_raw": "Pre-reqs:     Either (a) CPSC 310 or (b) all of CPEN 321, CPEN 331. ",
+            "sections": [
+                "201"
+            ],
+            "instructors": {
+                "201": [
+                    "LEMIEUX, CAROLINE",
+                    "SUMMERS, ALEXANDER"
+                ]
+            }
+        },
+        "416": {
+            "name": "Distributed Systems",
+            "description": "Concepts and design of distributed systems. Communication architecture and models for interprocess communication. Process migration, naming, distributed file systems, fault tolerance, and concurrency control.",
+            "credits": "3",
+            "days": {
+                "101": {
+                    "Tue": [
+                        "17:00",
+                        "18:30"
+                    ],
+                    "Thu": [
+                        "17:00",
+                        "18:30"
+                    ]
+                },
+                "201": {
+                    "Tue": [
+                        "8:00",
+                        "9:30"
+                    ],
+                    "Thu": [
+                        "8:00",
+                        "9:30"
+                    ]
+                }
+            },
+            "pre_req_raw": "Pre-reqs:     One of CPSC 313, CPEN 331 and one of CPSC 317, ELEC 331. ",
+            "sections": [
+                "101",
+                "201"
+            ],
+            "instructors": {
+                "101": [
+                    "MASON, WILLIAM"
+                ],
+                "201": [
+                    "GUJARATI, ARPAN"
+                ]
+            }
+        },
+        "418": {
+            "name": "Parallel Computation",
+            "description": "Algorithms, architectures, and programming paradigms for parallel computation.  Shared memory, message passing, and data parallel architectures and programming models.  Parallel algorithms including reduce, scan, and sorting networks.  Reasoning about the correctness of parallel programs.  Performance analysis and measurement for parallel programs.",
+            "credits": "3",
+            "days": {
+                "101": {
+                    "Mon": [
+                        "13:00",
+                        "14:00"
+                    ],
+                    "Wed": [
+                        "13:00",
+                        "14:00"
+                    ],
+                    "Fri": [
+                        "13:00",
+                        "14:00"
+                    ]
+                },
+                "201": {
+                    "Mon": [
+                        "15:00",
+                        "16:00"
+                    ],
+                    "Wed": [
+                        "15:00",
+                        "16:00"
+                    ],
+                    "Fri": [
+                        "15:00",
+                        "16:00"
+                    ]
+                }
+            },
+            "pre_req_raw": "Pre-reqs:     CPSC 320 and one of CPSC 261, CPSC 313, CPEN 212, CPEN 411. ",
+            "sections": [
+                "101",
+                "201"
+            ],
+            "instructors": {
+                "101": [
+                    "GREENSTREET, MARK"
+                ],
+                "201": [
+                    "GREENSTREET, MARK"
+                ]
+            }
+        },
+        "420": {
+            "name": "Advanced Algorithms Design and Analysis",
+            "description": "The study of advanced topics in the design and analysis of algorithms and associated data structures. Topics include algorithms for graph-theoretic; algebraic and geometric problems; algorithms on nonsequential models; complexity issues; approximation algorithms.",
+            "credits": "3",
+            "days": {
+                "201": {
+                    "Mon": [
+                        "13:00",
+                        "14:00"
+                    ],
+                    "Wed": [
+                        "13:00",
+                        "14:00"
+                    ],
+                    "Fri": [
+                        "13:00",
+                        "14:00"
+                    ]
+                }
+            },
+            "pre_req_raw": "Pre-reqs:     CPSC 320. ",
+            "sections": [
+                "201"
+            ],
+            "instructors": {
+                "201": [
+                    "EVANS, WILLIAM"
+                ]
+            }
+        },
+        "421": {
+            "name": "Introduction to Theory of Computing",
+            "description": "Characterizations of computability (using machines, languages and functions). Universality, equivalence and Church's thesis. Unsolvable problems. Restricted models of computation. Finite automata, grammars and formal languages.",
+            "credits": "3",
+            "days": {
+                "101": {
+                    "Mon": [
+                        "11:00",
+                        "12:00"
+                    ],
+                    "Wed": [
+                        "11:00",
+                        "12:00"
+                    ],
+                    "Fri": [
+                        "11:00",
+                        "12:00"
+                    ]
+                }
+            },
+            "pre_req_raw": "Pre-reqs:     CPSC 221. (CPSC 320 is recommended.)",
+            "sections": [
+                "101"
+            ],
+            "instructors": {
+                "101": [
+                    "FRIEDMAN, JOEL"
+                ]
+            }
+        },
+        "422": {
+            "name": "Intelligent Systems",
+            "description": "Principles and techniques underlying the design, implementation and evaluation of intelligent computational systems. Applications of artificial intelligence to natural language understanding, image understanding and computer-based expert and advisor systems. Advanced symbolic programming methodology.",
+            "credits": "3",
+            "days": {
+                "201": {
+                    "Mon": [
+                        "14:00",
+                        "15:00"
+                    ],
+                    "Wed": [
+                        "14:00",
+                        "15:00"
+                    ],
+                    "Fri": [
+                        "14:00",
+                        "15:00"
+                    ]
+                }
+            },
+            "pre_req_raw": "Pre-reqs:     CPSC 322. ",
+            "sections": [
+                "201"
+            ],
+            "instructors": {
+                "201": [
+                    "JOHNSON, JORDON"
+                ]
+            }
+        },
+        "425": {
+            "name": "Computer Vision",
+            "description": "Introduction to the processing and interpretation of images.  Image sensing, sampling, and filtering.  Algorithms for colour analysis, texture description, stereo imaging, motion interpretation, 3D shape recovery, and recognition.",
+            "credits": "3",
+            "days": {
+                "101": {
+                    "Tue": [
+                        "17:00",
+                        "18:30"
+                    ],
+                    "Thu": [
+                        "17:00",
+                        "18:30"
+                    ]
+                },
+                "201": {
+                    "Mon": [
+                        "15:30",
+                        "17:00"
+                    ],
+                    "Wed": [
+                        "15:30",
+                        "17:00"
+                    ]
+                }
+            },
+            "pre_req_raw": "Pre-reqs:     All of CPSC 221, MATH 200, MATH 221. ",
+            "sections": [
+                "101",
+                "201"
+            ],
+            "instructors": {
+                "101": [
+                    "BROWN, MATTHEW"
+                ],
+                "201": [
+                    "YI, KWANG MOO"
+                ]
+            }
+        },
+        "427": {
+            "name": "Video Game Programming",
+            "description": "Video game programming techniques and technologies, including rendering, animation, interaction, game AI, real-time software development for games; start-to-finish simple video-game design and implementation.",
+            "credits": "3",
+            "days": {
+                "101": {
+                    "Mon": [
+                        "15:00",
+                        "17:00"
+                    ],
+                    "Wed": [
+                        "15:00",
+                        "16:00"
+                    ]
+                },
+                "201": {
+                    "Mon": [
+                        "15:00",
+                        "17:00"
+                    ],
+                    "Wed": [
+                        "15:00",
+                        "16:00"
+                    ]
+                }
+            },
+            "pre_req_raw": "Pre-reqs:     CPSC 221 and one of MATH 200, MATH 217, MATH 226, MATH 253 and one of MATH 152, MATH 221, MATH 223. ",
+            "sections": [
+                "101",
+                "201"
+            ],
+            "instructors": {
+                "101": [
+                    "RHODIN, HELGE"
+                ],
+                "201": [
+                    "KERSLAKE, CHRIS"
+                ]
+            }
+        },
+        "430": {
+            "name": "Computers and Society",
+            "description": "Impact of computer technology on society; historical perspectives; social and economic consequences of large-scale information processing systems and automatic control; legal and ethical problems in computer applications. Computers and the individual: machine versus human capabilities, fact and fancy; problematic interface between man and machine.",
+            "credits": "3",
+            "days": {
+                "101": {
+                    "Tue": [
+                        "14:00",
+                        "15:30"
+                    ],
+                    "Thu": [
+                        "14:00",
+                        "15:30"
+                    ]
+                },
+                "201": {
+                    "Tue": [
+                        "17:00",
+                        "18:30"
+                    ],
+                    "Thu": [
+                        "17:00",
+                        "18:30"
+                    ]
+                }
+            },
+            "pre_req_raw": "Pre-reqs:      (3 credits of Computer Science and at least third-year standing.)",
+            "sections": [
+                "101",
+                "201"
+            ],
+            "instructors": {
+                "101": [
+                    "TOTI, GIULIA",
+                    "ZARKOOB, HEDAYAT"
+                ],
+                "201": [
+                    "ZARKOOB, HEDAYAT"
+                ]
+            }
+        },
+        "436A": {
+            "name": "Topics in Computer Science - OS DESIGN & IMPL",
+            "description": "Selected topics in a specific area within Computer Science. May be taken more than once for credit with permission of the department.",
+            "credits": "3",
+            "days": {
+                "101": {
+                    "Tue": [
+                        "9:00",
+                        "11:00"
+                    ],
+                    "Thu": [
+                        "9:00",
+                        "11:00"
+                    ]
+                }
+            },
+            "pre_req_raw": "Pre-reqs:      (Third-year standing in a Computer Science or Computer Engineering specialization, and permission of the department.)",
+            "sections": [
+                "101"
+            ],
+            "instructors": {
+                "101": [
+                    "PASQUIER, THOMAS"
+                ]
+            }
+        },
+        "436C": {
+            "name": "Topics in Computer Science - CLOUD COMPUTING",
+            "description": "Selected topics in a specific area within Computer Science. May be taken more than once for credit with permission of the department.",
+            "credits": "3",
+            "days": {
+                "101": {
+                    "Tue": [
+                        "11:00",
+                        "12:30"
+                    ],
+                    "Thu": [
+                        "11:00",
+                        "12:30"
+                    ]
+                },
+                "201": {
+                    "Tue": [
+                        "8:00",
+                        "9:30"
+                    ],
+                    "Thu": [
+                        "8:00",
+                        "9:30"
+                    ]
+                }
+            },
+            "pre_req_raw": "Pre-reqs:      (Third-year standing in a Computer Science or Computer Engineering specialization, and permission of the department.)",
+            "sections": [
+                "101",
+                "201"
+            ],
+            "instructors": {
+                "101": [
+                    "RAIYAT ALIABADI, MARYAM"
+                ],
+                "201": [
+                    "RAIYAT ALIABADI, MARYAM"
+                ]
+            }
+        },
+        "436E": {
+            "name": "Topics in Computer Science - ENTREPRENEURSHIP",
+            "description": "Selected topics in a specific area within Computer Science. May be taken more than once for credit with permission of the department.",
+            "credits": "3",
+            "days": {
+                "201": {
+                    "Wed": [
+                        "9:00",
+                        "12:00"
+                    ]
+                }
+            },
+            "pre_req_raw": "Pre-reqs:      (Third-year standing in a Computer Science or Computer Engineering specialization, and permission of the department.)",
+            "sections": [
+                "201"
+            ],
+            "instructors": {
+                "201": [
+                    "WOOD, FRANK DONALD"
+                ]
+            }
+        },
+        "436N": {
+            "name": "Topics in Computer Science - NLP",
+            "description": "Selected topics in a specific area within Computer Science. May be taken more than once for credit with permission of the department.",
+            "credits": "3",
+            "days": {
+                "101": {
+                    "Tue": [
+                        "9:30",
+                        "11:00"
+                    ],
+                    "Thu": [
+                        "9:30",
+                        "11:00"
+                    ]
+                }
+            },
+            "pre_req_raw": "Pre-reqs:      (Third-year standing in a Computer Science or Computer Engineering specialization, and permission of the department.)",
+            "sections": [
+                "101"
+            ],
+            "instructors": {
+                "101": [
+                    "SHWARTZ, VERED"
+                ]
+            }
+        },
+        "436R": {
+            "name": "Topics in Computer Science - RANDOMIZED ALGS",
+            "description": "Selected topics in a specific area within Computer Science. May be taken more than once for credit with permission of the department.",
+            "credits": "3",
+            "days": {
+                "101": {
+                    "Mon": [
+                        "14:00",
+                        "15:00"
+                    ],
+                    "Wed": [
+                        "14:00",
+                        "15:00"
+                    ],
+                    "Fri": [
+                        "14:00",
+                        "15:00"
+                    ]
+                }
+            },
+            "pre_req_raw": "Pre-reqs:      (Third-year standing in a Computer Science or Computer Engineering specialization, and permission of the department.)",
+            "sections": [
+                "101"
+            ],
+            "instructors": {
+                "101": [
+                    "HARVEY, NICHOLAS"
+                ]
+            }
+        },
+        "436S": {
+            "name": "Topics in Computer Science - COMP SECURITY",
+            "description": "Selected topics in a specific area within Computer Science. May be taken more than once for credit with permission of the department.",
+            "credits": "3",
+            "days": {
+                "201": {
+                    "Wed": [
+                        "10:30",
+                        "12:00"
+                    ],
+                    "Fri": [
+                        "10:30",
+                        "12:00"
+                    ]
+                }
+            },
+            "pre_req_raw": "Pre-reqs:      (Third-year standing in a Computer Science or Computer Engineering specialization, and permission of the department.)",
+            "sections": [
+                "201"
+            ],
+            "instructors": {
+                "201": [
+                    "XIAO, BO ROBERT"
+                ]
+            }
+        },
+        "440": {
+            "name": "Advanced Machine Learning",
+            "description": "Advanced machine learning techniques focusing on probabilistic models. Deep learning and differentiable programming, exponential families and Bayesian inference, probabilistic graphical models and other generative models, Monte Carlo and variational inference methods.",
+            "credits": "3",
+            "days": {
+                "201": {
+                    "Mon": [
+                        "15:30",
+                        "17:00"
+                    ],
+                    "Wed": [
+                        "15:30",
+                        "17:00"
+                    ]
+                }
+            },
+            "pre_req_raw": "Pre-reqs:     All of CPSC 320, CPSC 340. ",
+            "sections": [
+                "201"
+            ],
+            "instructors": {
+                "201": [
+                    "SUTHERLAND, DANICA"
+                ]
+            }
+        },
+        "444": {
+            "name": "Advanced Methods for Human Computer Interaction",
+            "description": "Design and evaluation methodologies and theories; formal models of the user including visual, motor, and information processing; advanced evaluation methods including laboratory experiments and field studies; HCI research frontiers.",
+            "credits": "3",
+            "days": {
+                "201": {
+                    "Tue": [
+                        "15:30",
+                        "17:30"
+                    ]
+                }
+            },
+            "pre_req_raw": "Pre-reqs:     CPSC 344 and one of STAT 200, STAT 201, STAT 203, STAT 241, STAT 251, BIOL 300, COMM 291, ECON 325, ECON 327, FRST 231, GEOG 374, KIN  206, KIN  371, POLI 380, PSYC 218, PSYC 278, PSYC 366, SOCI 328. ",
+            "sections": [
+                "201"
+            ],
+            "instructors": {
+                "201": []
+            }
+        },
+        "447": {
+            "name": "Introduction to Visualization",
+            "description": "Design and implementation of static and interactive visualizations. Selection of appropriate visualization methods for given combinations of data type and intended analysis task. Assessment of visual representations according to design and perceptual principles.",
+            "credits": "3",
+            "days": {
+                "101": {
+                    "Thu": [
+                        "14:00",
+                        "17:00"
+                    ]
+                }
+            },
+            "pre_req_raw": "Pre-reqs:     One of CPSC 310, CPEN 321. ",
+            "sections": [
+                "101"
+            ],
+            "instructors": {
+                "101": [
+                    "MUNZNER, TAMARA"
+                ]
+            }
+        },
+        "448A": {
+            "name": "Directed Studies in Computer Science - DIRECTED STUDIES",
+            "description": "Open ordinarily to students in Computer Science with at least a 72% average and permission of the department.  The course may consist of supervised reading, participation in a seminar, and one or more programming projects.",
+            "credits": "3",
+            "days": {
+                "101": {
+                    "": [
+                        "",
+                        ""
+                    ]
+                }
+            },
+            "pre_req_raw": "",
+            "sections": [
+                "101"
+            ],
+            "instructors": {
+                "101": []
+            }
+        },
+        "448B": {
+            "name": "Directed Studies in Computer Science - DIRECTED STUDIES",
+            "description": "Open ordinarily to students in Computer Science with at least a 72% average and permission of the department.  The course may consist of supervised reading, participation in a seminar, and one or more programming projects.",
+            "credits": "3",
+            "days": {
+                "101": {
+                    "": [
+                        "",
+                        ""
+                    ]
+                },
+                "202": {
+                    "": [
+                        "",
+                        ""
+                    ]
+                }
+            },
+            "pre_req_raw": "",
+            "sections": [
+                "101",
+                "202"
+            ],
+            "instructors": {
+                "101": [],
+                "202": []
+            }
+        },
+        "448C": {
+            "name": "Directed Studies in Computer Science - DIRECTED STUDIES",
+            "description": "Open ordinarily to students in Computer Science with at least a 72% average and permission of the department.  The course may consist of supervised reading, participation in a seminar, and one or more programming projects.",
+            "credits": "6",
+            "days": {
+                "001": {
+                    "": [
+                        "",
+                        ""
+                    ]
+                }
+            },
+            "pre_req_raw": "",
+            "sections": [
+                "001"
+            ],
+            "instructors": {
+                "001": [
+                    "CARTER, PAUL"
+                ]
+            }
+        },
+        "449": {
+            "name": "Honours Thesis",
+            "description": "Under supervision of a faculty member, students investigate a research topic and prepare a thesis.",
+            "credits": "6",
+            "days": {
+                "001": {
+                    "Mon": [
+                        "",
+                        ""
+                    ]
+                }
+            },
+            "pre_req_raw": "Pre-reqs:     CPSC 349. ",
+            "sections": [
+                "001"
+            ],
+            "instructors": {
+                "001": []
+            }
+        },
+        "491": {
+            "name": "Interactive Digital Media Practicum",
+            "description": "Design and implementation of interactive digital media systems using modern processes and tools. Projects provided by external clients or vetted entrepreneurial pitches are developed by interdisciplinary teams composed of one CPSC 491 student and multiple Master of Digital Media students.",
+            "credits": "6",
+            "days": {
+                "201": {
+                    "": [
+                        "",
+                        ""
+                    ]
+                }
+            },
+            "pre_req_raw": "Pre-reqs:     All of CPSC 221, CPSC 310, CPSC 344. (and Third-year standing.)",
+            "sections": [
+                "201"
+            ],
+            "instructors": {
+                "201": []
+            }
+        },
+        "501": {
+            "name": "Theory of Automata, Formal Languages and Computability",
+            "description": " ",
+            "credits": "3",
+            "days": {
+                "101": {
+                    "Mon": [
+                        "11:00",
+                        "12:00"
+                    ],
+                    "Wed": [
+                        "11:00",
+                        "12:00"
+                    ],
+                    "Fri": [
+                        "11:00",
+                        "12:00"
+                    ]
+                }
+            },
+            "pre_req_raw": "",
+            "sections": [
+                "101"
+            ],
+            "instructors": {
+                "101": [
+                    "FRIEDMAN, JOEL"
+                ]
+            }
+        },
+        "504": {
+            "name": "Data Management",
+            "description": " ",
+            "credits": "3",
+            "days": {
+                "201": {
+                    "Mon": [
+                        "12:00",
+                        "13:30"
+                    ],
+                    "Wed": [
+                        "12:00",
+                        "13:30"
+                    ]
+                }
+            },
+            "pre_req_raw": "",
+            "sections": [
+                "201"
+            ],
+            "instructors": {
+                "201": [
+                    "POTTINGER, RACHEL"
+                ]
+            }
+        },
+        "508": {
+            "name": "Operating Systems",
+            "description": " ",
+            "credits": "3",
+            "days": {
+                "101": {
+                    "Tue": [
+                        "9:30",
+                        "11:00"
+                    ],
+                    "Thu": [
+                        "9:30",
+                        "11:00"
+                    ]
+                }
+            },
+            "pre_req_raw": "",
+            "sections": [
+                "101"
+            ],
+            "instructors": {
+                "101": [
+                    "ACHERMANN, RETO"
+                ]
+            }
+        },
+        "509": {
+            "name": "Programming Language Principles",
+            "description": " ",
+            "credits": "3",
+            "days": {
+                "201": {
+                    "Tue": [
+                        "15:30",
+                        "17:00"
+                    ],
+                    "Thu": [
+                        "15:30",
+                        "17:00"
+                    ]
+                }
+            },
+            "pre_req_raw": "",
+            "sections": [
+                "201"
+            ],
+            "instructors": {
+                "201": [
+                    "GARCIA, RONALD"
+                ]
+            }
+        },
+        "521": {
+            "name": "Parallel Algorithms and Architectures",
+            "description": " ",
+            "credits": "3",
+            "days": {
+                "101": {
+                    "Mon": [
+                        "13:00",
+                        "14:00"
+                    ],
+                    "Wed": [
+                        "13:00",
+                        "14:00"
+                    ],
+                    "Fri": [
+                        "13:00",
+                        "14:00"
+                    ]
+                }
+            },
+            "pre_req_raw": "",
+            "sections": [
+                "101"
+            ],
+            "instructors": {
+                "101": [
+                    "GREENSTREET, MARK"
+                ]
+            }
+        },
+        "522": {
+            "name": "Artificial Intelligence II",
+            "description": " ",
+            "credits": "3",
+            "days": {
+                "101": {
+                    "Tue": [
+                        "11:00",
+                        "12:30"
+                    ],
+                    "Thu": [
+                        "11:00",
+                        "12:30"
+                    ]
+                }
+            },
+            "pre_req_raw": "",
+            "sections": [
+                "101"
+            ],
+            "instructors": {
+                "101": [
+                    "POOLE, DAVID"
+                ]
+            }
+        },
+        "524": {
+            "name": "Computer Graphics: Modelling",
+            "description": " ",
+            "credits": "3",
+            "days": {
+                "201": {
+                    "Mon": [
+                        "10:00",
+                        "11:30"
+                    ],
+                    "Wed": [
+                        "10:00",
+                        "11:30"
+                    ]
+                }
+            },
+            "pre_req_raw": "",
+            "sections": [
+                "201"
+            ],
+            "instructors": {
+                "201": [
+                    "SHEFFER, ALLA"
+                ]
+            }
+        },
+        "532C": {
+            "name": "Topics in Artificial Intelligence - HUMAN-CENTRED AI",
+            "description": " ",
+            "credits": "3",
+            "days": {
+                "201": {
+                    "Thu": [
+                        "9:30",
+                        "12:30"
+                    ]
+                }
+            },
+            "pre_req_raw": "",
+            "sections": [
+                "201"
+            ],
+            "instructors": {
+                "201": [
+                    "CONATI, CRISTINA"
+                ]
+            }
+        },
+        "532D": {
+            "name": "Topics in Artificial Intelligence - STAT LEARN THRY",
+            "description": " ",
+            "credits": "3",
+            "days": {
+                "101": {
+                    "Tue": [
+                        "15:30",
+                        "17:00"
+                    ],
+                    "Thu": [
+                        "15:30",
+                        "17:00"
+                    ]
+                }
+            },
+            "pre_req_raw": "",
+            "sections": [
+                "101"
+            ],
+            "instructors": {
+                "101": [
+                    "SUTHERLAND, DANICA"
+                ]
+            }
+        },
+        "532V": {
+            "name": "Topics in Artificial Intelligence - NLP COMMONSENSE",
+            "description": " ",
+            "credits": "3",
+            "days": {
+                "201": {
+                    "Mon": [
+                        "15:00",
+                        "16:30"
+                    ],
+                    "Wed": [
+                        "15:00",
+                        "16:30"
+                    ]
+                }
+            },
+            "pre_req_raw": "",
+            "sections": [
+                "201"
+            ],
+            "instructors": {
+                "201": [
+                    "SHWARTZ, VERED"
+                ]
+            }
+        },
+        "532Y": {
+            "name": "Topics in Artificial Intelligence - CAUSAL ML",
+            "description": " ",
+            "credits": "3",
+            "days": {
+                "101": {
+                    "Mon": [
+                        "11:00",
+                        "12:30"
+                    ],
+                    "Wed": [
+                        "11:00",
+                        "12:30"
+                    ]
+                }
+            },
+            "pre_req_raw": "",
+            "sections": [
+                "101"
+            ],
+            "instructors": {
+                "101": [
+                    "LECUYER, MATHIAS"
+                ]
+            }
+        },
+        "533V": {
+            "name": "Topics in Computer Graphics - LEARNING TO MOVE",
+            "description": " ",
+            "credits": "3",
+            "days": {
+                "201": {
+                    "Mon": [
+                        "13:30",
+                        "15:00"
+                    ],
+                    "Wed": [
+                        "13:30",
+                        "15:00"
+                    ]
+                }
+            },
+            "pre_req_raw": "",
+            "sections": [
+                "201"
+            ],
+            "instructors": {
+                "201": [
+                    "VAN DE PANNE, MICHIEL"
+                ]
+            }
+        },
+        "533Y": {
+            "name": "Topics in Computer Graphics - DEEP VIS. GEOM.",
+            "description": " ",
+            "credits": "3",
+            "days": {
+                "101": {
+                    "Mon": [
+                        "9:30",
+                        "11:00"
+                    ],
+                    "Wed": [
+                        "9:30",
+                        "11:00"
+                    ]
+                }
+            },
+            "pre_req_raw": "",
+            "sections": [
+                "101"
+            ],
+            "instructors": {
+                "101": [
+                    "YI, KWANG MOO"
+                ]
+            }
+        },
+        "536E": {
+            "name": "Topics in Algorithms and Complexity - GRAPH DRAWING",
+            "description": " ",
+            "credits": "3",
+            "days": {
+                "101": {
+                    "Tue": [
+                        "11:00",
+                        "12:30"
+                    ],
+                    "Thu": [
+                        "11:00",
+                        "12:30"
+                    ]
+                }
+            },
+            "pre_req_raw": "",
+            "sections": [
+                "101"
+            ],
+            "instructors": {
+                "101": [
+                    "EVANS, WILLIAM"
+                ]
+            }
+        },
+        "536M": {
+            "name": "Topics in Algorithms and Complexity - OPTIM THEORY",
+            "description": " ",
+            "credits": "3",
+            "days": {
+                "101": {
+                    "Tue": [
+                        "9:30",
+                        "11:00"
+                    ],
+                    "Thu": [
+                        "9:30",
+                        "11:00"
+                    ]
+                }
+            },
+            "pre_req_raw": "",
+            "sections": [
+                "101"
+            ],
+            "instructors": {
+                "101": [
+                    "FRIEDLANDER, MICHAEL"
+                ]
+            }
+        },
+        "536S": {
+            "name": "Topics in Algorithms and Complexity - SUBMODULAR OPT",
+            "description": " ",
+            "credits": "3",
+            "days": {
+                "101": {
+                    "Mon": [
+                        "13:00",
+                        "14:30"
+                    ],
+                    "Wed": [
+                        "13:00",
+                        "14:30"
+                    ]
+                }
+            },
+            "pre_req_raw": "",
+            "sections": [
+                "101"
+            ],
+            "instructors": {
+                "101": [
+                    "SHEPHERD, FREDERICK"
+                ]
+            }
+        },
+        "536W": {
+            "name": "Topics in Algorithms and Complexity - QUANTUM COMP",
+            "description": " ",
+            "credits": "3",
+            "days": {
+                "201": {
+                    "Mon": [
+                        "9:30",
+                        "11:00"
+                    ],
+                    "Wed": [
+                        "9:30",
+                        "11:00"
+                    ]
+                }
+            },
+            "pre_req_raw": "",
+            "sections": [
+                "201"
+            ],
+            "instructors": {
+                "201": [
+                    "WANG, DAOCHEN"
+                ]
+            }
+        },
+        "538G": {
+            "name": "Topics in Computer Systems - REAL-TIME COMP.",
+            "description": " ",
+            "credits": "3",
+            "days": {
+                "101": {
+                    "Tue": [
+                        "14:30",
+                        "16:00"
+                    ],
+                    "Thu": [
+                        "14:30",
+                        "16:00"
+                    ]
+                }
+            },
+            "pre_req_raw": "",
+            "sections": [
+                "101"
+            ],
+            "instructors": {
+                "101": [
+                    "GUJARATI, ARPAN"
+                ]
+            }
+        },
+        "538L": {
+            "name": "Topics in Computer Systems - CAUSAL ML",
+            "description": " ",
+            "credits": "3",
+            "days": {
+                "101": {
+                    "Mon": [
+                        "11:00",
+                        "12:30"
+                    ],
+                    "Wed": [
+                        "11:00",
+                        "12:30"
+                    ]
+                }
+            },
+            "pre_req_raw": "",
+            "sections": [
+                "101"
+            ],
+            "instructors": {
+                "101": [
+                    "LECUYER, MATHIAS"
+                ]
+            }
+        },
+        "538S": {
+            "name": "Topics in Computer Systems - ACCOUNTABLE SYS",
+            "description": " ",
+            "credits": "3",
+            "days": {
+                "201": {
+                    "Mon": [
+                        "14:00",
+                        "17:00"
+                    ]
+                }
+            },
+            "pre_req_raw": "",
+            "sections": [
+                "201"
+            ],
+            "instructors": {
+                "201": [
+                    "FORD, CRISTIE",
+                    "GOOLD, BENJAMIN",
+                    "PASQUIER, THOMAS",
+                    "THOMASEN, KRISTEN"
+                ]
+            }
+        },
+        "539B": {
+            "name": "Topics in Programming Languages - DEPENDENT TYPES",
+            "description": " ",
+            "credits": "3",
+            "days": {
+                "101": {
+                    "Mon": [
+                        "14:00",
+                        "15:30"
+                    ],
+                    "Wed": [
+                        "14:00",
+                        "15:30"
+                    ]
+                }
+            },
+            "pre_req_raw": "",
+            "sections": [
+                "101"
+            ],
+            "instructors": {
+                "101": [
+                    "BOWMAN, WILLIAM"
+                ]
+            }
+        },
+        "539S": {
+            "name": "Topics in Programming Languages - PROGRAMVERIFIERS",
+            "description": " ",
+            "credits": "3",
+            "days": {
+                "101": {
+                    "Tue": [
+                        "15:30",
+                        "17:00"
+                    ],
+                    "Thu": [
+                        "15:30",
+                        "17:00"
+                    ]
+                }
+            },
+            "pre_req_raw": "",
+            "sections": [
+                "101"
+            ],
+            "instructors": {
+                "101": [
+                    "SUMMERS, ALEXANDER"
+                ]
+            }
+        },
+        "540": {
+            "name": "Machine Learning",
+            "description": " ",
+            "credits": "3",
+            "days": {
+                "101": {
+                    "Mon": [
+                        "12:00",
+                        "13:00"
+                    ],
+                    "Wed": [
+                        "12:00",
+                        "13:00"
+                    ],
+                    "Fri": [
+                        "12:00",
+                        "13:00"
+                    ]
+                }
+            },
+            "pre_req_raw": "",
+            "sections": [
+                "101"
+            ],
+            "instructors": {
+                "101": [
+                    "CLUNE, JEFFREY",
+                    "SCHMIDT, MARK"
+                ]
+            }
+        },
+        "543": {
+            "name": "Physical User Interface Design and Evaluation",
+            "description": " ",
+            "credits": "3",
+            "days": {
+                "201": {
+                    "Mon": [
+                        "10:00",
+                        "12:00"
+                    ]
+                }
+            },
+            "pre_req_raw": "",
+            "sections": [
+                "201"
+            ],
+            "instructors": {
+                "201": [
+                    "MACLEAN, KARON"
+                ]
+            }
+        },
+        "544": {
+            "name": "Human Computer Interaction",
+            "description": " ",
+            "credits": "3",
+            "days": {
+                "101": {
+                    "Mon": [
+                        "10:00",
+                        "11:30"
+                    ],
+                    "Wed": [
+                        "10:00",
+                        "11:30"
+                    ]
+                }
+            },
+            "pre_req_raw": "",
+            "sections": [
+                "101"
+            ],
+            "instructors": {
+                "101": [
+                    "MACLEAN, KARON"
+                ]
+            }
+        },
+        "545": {
+            "name": "Algorithms for Bioinformatics",
+            "description": " ",
+            "credits": "3",
+            "days": {
+                "101": {
+                    "Mon": [
+                        "15:00",
+                        "16:30"
+                    ],
+                    "Wed": [
+                        "15:00",
+                        "16:30"
+                    ]
+                }
+            },
+            "pre_req_raw": "",
+            "sections": [
+                "101"
+            ],
+            "instructors": {
+                "101": [
+                    "DING, JIARUI"
+                ]
+            }
+        },
+        "549A": {
+            "name": "Master's Thesis - MASTERS THESIS",
+            "description": " ",
+            "credits": "6",
+            "days": {
+                "001": {
+                    "": [
+                        "",
+                        ""
+                    ]
+                }
+            },
+            "pre_req_raw": "",
+            "sections": [
+                "001"
+            ],
+            "instructors": {
+                "001": []
+            }
+        },
+        "549B": {
+            "name": "Master's Thesis - MASTERS THESIS",
+            "description": " ",
+            "credits": "12",
+            "days": {
+                "002": {
+                    "": [
+                        "",
+                        ""
+                    ]
+                }
+            },
+            "pre_req_raw": "",
+            "sections": [
+                "002"
+            ],
+            "instructors": {
+                "002": []
+            }
+        },
+        "550": {
+            "name": "Machine Learning II",
+            "description": " ",
+            "credits": "3",
+            "days": {
+                "201": {
+                    "Mon": [
+                        "15:30",
+                        "17:00"
+                    ],
+                    "Wed": [
+                        "15:30",
+                        "17:00"
+                    ]
+                }
+            },
+            "pre_req_raw": "",
+            "sections": [
+                "201"
+            ],
+            "instructors": {
+                "201": [
+                    "SUTHERLAND, DANICA"
+                ]
+            }
+        },
+        "554C": {
+            "name": "Topics in Human-Computer Interaction - HUMAN-CENTRED AI",
+            "description": " ",
+            "credits": "3",
+            "days": {
+                "201": {
+                    "Thu": [
+                        "9:30",
+                        "12:30"
+                    ]
+                }
+            },
+            "pre_req_raw": "",
+            "sections": [
+                "201"
+            ],
+            "instructors": {
+                "201": [
+                    "CONATI, CRISTINA"
+                ]
+            }
+        },
+        "554X": {
+            "name": "Topics in Human-Computer Interaction - ML & SIGNALS",
+            "description": " ",
+            "credits": "3",
+            "days": {
+                "101": {
+                    "Tue": [
+                        "14:00",
+                        "15:30"
+                    ],
+                    "Thu": [
+                        "14:00",
+                        "15:30"
+                    ]
+                }
+            },
+            "pre_req_raw": "",
+            "sections": [
+                "101"
+            ],
+            "instructors": {
+                "101": [
+                    "XIAO, BO ROBERT"
+                ]
+            }
+        },
+        "589": {
+            "name": "M.Sc. Major Essay",
+            "description": " ",
+            "credits": "3",
+            "days": {
+                "001": {
+                    "": [
+                        "",
+                        ""
+                    ]
+                }
+            },
+            "pre_req_raw": "",
+            "sections": [
+                "001"
+            ],
+            "instructors": {
+                "001": []
+            }
+        },
+        "649": {
+            "name": "Doctoral Dissertation",
+            "description": " ",
+            "credits": "0",
+            "days": {
+                "001": {
+                    "Tue": [
+                        "",
+                        ""
+                    ]
+                }
+            },
+            "pre_req_raw": "",
+            "sections": [
+                "001"
+            ],
+            "instructors": {
+                "001": []
+            }
+        }
+    }
+}

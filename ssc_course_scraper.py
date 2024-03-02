@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup as bs
 import requests
 import regex as re
 from pprint import pprint
-
+import json
 
 def get_soup(dept: str = None, number: str = None, section: str = None) -> bs:
     if not dept and not number and not section:
@@ -144,8 +144,18 @@ if __name__ == "__main__":
     # print(get_dept_or_courses('ADHE'))
     # print(scrape_dept_list(['ADHE'])['ADHE']['ADHE 329'])
     # pprint(get_course_sections('ACAM', 250))
-    print(scrape_dept_list(['CPSC']))
+    # print(scrape_dept_list(['CPSC']))
+    
     # print(get_course_sections('CPSC', 310))
+
+    # Specify the file path where you want to save the JSON file
+    file_path = "CPSC.json"
+    # Open the file in write mode
+    with open(file_path, 'w') as json_file:
+        # Write the JSON data to the file
+        json.dump(scrape_dept_list(['CPSC']), json_file, indent=4)
+    print("JSON data has been saved to", file_path)
+    
     pass
 
 

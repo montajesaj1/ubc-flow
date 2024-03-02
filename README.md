@@ -4,6 +4,8 @@
 
 Have you ever wanted to take an upper-year course but realized you never took a pre-requisite that now jeopardizes your whole degree? We present UBC FLOW, a generative AI-powered, academic advising service.
 
+![Alt text](yes.png)
+
 ## Motivation
 
 The problem our team decided to tackle using UBC Flow was streamlining the creation of timetables geared towards each student's career interests. While the SSC has all the available resources needed, it can be difficult to navigate the interface to satisfy prerequisites and find optimal course descriptions and professors. With our new technology, users can now create their ideal timetable with the click of a button, providing what interests they may have and what they hope to pursue in the future. They can specify course content and times to suit their individual needs best. On top of that, our AI bot will help ensure students can receive timely academic advising, slightly relieving the pressure of busy academic advisors. 

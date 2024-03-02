@@ -56,9 +56,19 @@ def get_course_sections(dept: str, number: int) -> dict:
     pre_req_str = ""
     elements = soup.find_all("p")
     for e in elements:
-        if "Pre" in e.get_text():
+        if "Pre-reqs:" in e.get_text():
             pre_req_str = e.get_text()
     # pre_req_str needs joining and sanitization/separation using the old code I(Shorya) wrote
+
+    # Alberto: next few lines is for pulling course description
+    # assuming every ssc course page will have a h4 element contianing the course page
+    # find the h4 element and check if the next element is a p element 
+    course_description = ''
+    h4_element = soup.find('h4')
+    h4_next_sibling = h4_element.find_next_sibling()
+    if h4_next_sibling.name == 'p':
+        # Access p element, hopefully the p element is the description
+        course_description = h4_next_sibling.text  
 
     # narrowing to the section we need - the whole table and then only keeping the Lecture sections
     section_table = content_expand.find(
@@ -88,6 +98,7 @@ def get_course_sections(dept: str, number: int) -> dict:
                 day_time[section].update({day: (start_time, end_time)})
 
     return {
+        "description": course_description,
         "credits": credits,
         "days": day_time,
         "pre_req_raw": pre_req_str,
@@ -134,7 +145,7 @@ if __name__ == "__main__":
     # print(scrape_dept_list(['ADHE'])['ADHE']['ADHE 329'])
     # pprint(get_course_sections('ACAM', 250))
     print(scrape_dept_list(['CPSC']))
-    # get_course_sections('CPSC', 310)
+    # print(get_course_sections('CPSC', 310))
     pass
 
 
@@ -156,6 +167,7 @@ GOALS: JSON with foll. specs (not final)
     code: str,
     number: str,
     name: str,
+    description: str,
     sections: list,
     time: dict, # {section: datetime} # how to store multiple timings for one section? e.g.ACAM 250
     pre_reqs: nested list and tuple,
@@ -171,6 +183,7 @@ GOALS: JSON with foll. specs (not final)
 {
 'CPSC': {
         '100': {
+                'description': 'course decription on ssc'
                 'name': 'Computational Thinking'
                 'credits': 4
                 'sections': ['101', '201']

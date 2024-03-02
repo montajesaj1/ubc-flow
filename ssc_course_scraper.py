@@ -52,7 +52,12 @@ def get_course_sections(dept: str, number: int) -> dict:
 
     # not sure if works on course page because of the index might not be the same needs testing
     # pre_req_str = content_expand.findAll('p')[2]
-    pre_req_str = ""  # was having problems so it is what it is for now..
+    # Alberto: found a solution to pull Pre-reqs data. if nothing is found, pre_req_str will be an empty string.
+    pre_req_str = ""
+    elements = soup.find_all("p")
+    for e in elements:
+        if "Pre" in e.get_text():
+            pre_req_str = e.get_text()
     # pre_req_str needs joining and sanitization/separation using the old code I(Shorya) wrote
 
     # narrowing to the section we need - the whole table and then only keeping the Lecture sections
@@ -124,11 +129,12 @@ def scrape_dept_list(depts: list) -> dict:
 
 if __name__ == "__main__":
     # test
-    # pprint(get_course_instructors('CPSC', '100', '201'))
+    # print(get_course_instructors('CPSC', '100', '201'))
     # print(get_dept_or_courses('ADHE'))
     # print(scrape_dept_list(['ADHE'])['ADHE']['ADHE 329'])
     # pprint(get_course_sections('ACAM', 250))
-    # pprint(scrape_dept_list(['CPSC']))
+    print(scrape_dept_list(['CPSC']))
+    # get_course_sections('CPSC', 310)
     pass
 
 

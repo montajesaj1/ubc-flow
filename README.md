@@ -1,1 +1,1 @@
-# ubc-flow
+# UBC Flow: A generative AI powered academic advising service.

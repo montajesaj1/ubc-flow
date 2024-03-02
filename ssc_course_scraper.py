@@ -119,6 +119,21 @@ def get_dept_or_courses(dept: str = None) -> dict:
 
     return retDict
 
+def get_depts() -> list:
+    soup = get_soup()
+
+    retList = []
+    table_tag = soup.find("tbody").findChild()
+
+    while table_tag:
+        children = table_tag.findChildren()
+        dept_code = children[1].get_text(strip=True)
+        if "*" not in dept_code:
+            retList.append(children[1].get_text(strip=True))
+        table_tag = table_tag.findNextSibling()
+
+    return retList
+
 
 def scrape_dept_list(depts: list) -> dict:
     retDict = {}
@@ -147,14 +162,14 @@ if __name__ == "__main__":
     # print(scrape_dept_list(['CPSC']))
     
     # print(get_course_sections('CPSC', 310))
-
-    # Specify the file path where you want to save the JSON file
-    file_path = "CPSC.json"
-    # Open the file in write mode
-    with open(file_path, 'w') as json_file:
-        # Write the JSON data to the file
-        json.dump(scrape_dept_list(['CPSC']), json_file, indent=4)
-    print("JSON data has been saved to", file_path)
+    print(get_depts())
+    # # Specify the file path where you want to save the JSON file
+    # file_path = "CPSC.json"
+    # # Open the file in write mode
+    # with open(file_path, 'w') as json_file:
+    #     # Write the JSON data to the file
+    #     json.dump(scrape_dept_list(['CPSC']), json_file, indent=4)
+    # print("JSON data has been saved to", file_path)
     
     pass
 

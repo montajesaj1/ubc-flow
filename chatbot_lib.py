@@ -5,7 +5,7 @@ from langchain.chains import ConversationChain
 import json
 
 # Assuming CPSC.json contains relevant data for the conversation
-course_data = json.load(open("CPSC.json"))
+course_data = json.load(open("UBCCourses.json"))
 
 
 def get_llm():

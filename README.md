@@ -4,7 +4,9 @@
 
 Have you ever wanted to take an upper-year course but realized you never took a pre-requisite that now jeopardizes your whole degree? We present UBC FLOW, a generative AI-powered, academic advising service.
 
-![Alt text](yes.png)
+<p align="center">
+<img src="yes.png" width="500" />
+</p>
 
 ## Motivation
 

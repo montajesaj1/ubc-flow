@@ -36,8 +36,17 @@ def get_course_instructors(dept: str, number: int, section: int) -> list:
     """
 
     soup = get_soup(dept, number, section)
-    instructor_table = (soup.findAll("table", attrs={"class", "table"}))[2]
-    return [x.get_text(strip=True) for x in instructor_table.findAll("a")]
+
+    instructor_table = (soup.findAll("table", attrs={"class", "table"}))[1]
+    table_list = soup.findAll("table")
+    for table in table_list:
+        if "Instructor:" in table.get_text():
+            instructor_table = table
+            break
+    output = [x.get_text(strip=True) for x in instructor_table.findAll("a")]
+    return output
+
+
 
 
 def get_course_sections(dept: str, number: int) -> dict:
@@ -82,6 +91,7 @@ def get_course_sections(dept: str, number: int) -> dict:
     for row in lecture_rows:
         td_tags = row.findAll("td")
         section = td_tags[1].find("a", href=True)
+
         if not section:
             section = sections[len(sections) - 1]
         else:
@@ -119,6 +129,21 @@ def get_dept_or_courses(dept: str = None) -> dict:
 
     return retDict
 
+def get_depts() -> list:
+    soup = get_soup()
+
+    retList = []
+    table_tag = soup.find("tbody").findChild()
+
+    while table_tag:
+        children = table_tag.findChildren()
+        dept_code = children[1].get_text(strip=True)
+        if "*" not in dept_code:
+            retList.append(children[1].get_text(strip=True))
+        table_tag = table_tag.findNextSibling()
+
+    return retList
+
 
 def scrape_dept_list(depts: list) -> dict:
     retDict = {}
@@ -144,16 +169,17 @@ if __name__ == "__main__":
     # print(get_dept_or_courses('ADHE'))
     # print(scrape_dept_list(['ADHE'])['ADHE']['ADHE 329'])
     # pprint(get_course_sections('ACAM', 250))
-    # print(scrape_dept_list(['CPSC']))
+    # scrape_dept_list(['APSC'])
     
     # print(get_course_sections('CPSC', 310))
-
+    depts = ["CPSC", "MATH", "STAT", "CPEN", "COGS", "DSCI", "INFO"]
+    
     # Specify the file path where you want to save the JSON file
-    file_path = "CPSC.json"
+    file_path = "UBCCourses.json"
     # Open the file in write mode
     with open(file_path, 'w') as json_file:
         # Write the JSON data to the file
-        json.dump(scrape_dept_list(['CPSC']), json_file, indent=4)
+        json.dump(scrape_dept_list(depts), json_file, indent=4)
     print("JSON data has been saved to", file_path)
     
     pass

@@ -1,3 +1,5 @@
+redis
+anthropic
 aiofiles
 aiohttp
 aiosignal

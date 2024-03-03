@@ -3,9 +3,16 @@ from langchain.memory import ConversationSummaryBufferMemory
 from langchain.llms.bedrock import Bedrock
 from langchain.chains import ConversationChain
 import json
+import streamlit as st
 
 # Assuming CPSC.json contains relevant data for the conversation
 course_data = json.load(open("CPSC.json"))
+
+courses_taken = " "
+
+if "courses_taken" in st.session_state:
+    # Access the saved courses_taken from the session state
+    courses_taken = st.session_state["courses_taken"]
 
 
 def get_llm():
@@ -37,7 +44,7 @@ def get_memory():
 
 def get_chat_response(input_text, memory):
     # Build the chat response
-    prompt = f"{course_data} + {input_text}"
+    prompt = f"{course_data} + {input_text} + {courses_taken}"
     llm = get_llm()
     conversation_with_summary = ConversationChain(
         llm=llm,

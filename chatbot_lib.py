@@ -8,12 +8,6 @@ import streamlit as st
 # Assuming CPSC.json contains relevant data for the conversation
 course_data = json.load(open("CPSC.json"))
 
-courses_taken = " "
-
-if "courses_taken" in st.session_state:
-    # Access the saved courses_taken from the session state
-    courses_taken = st.session_state["courses_taken"]
-
 
 def get_llm():
     # Initialize Bedrock with only the necessary parameters
@@ -43,8 +37,13 @@ def get_memory():
 
 
 def get_chat_response(input_text, memory):
+    courses_taken = " "
+    if "courses_taken" in st.session_state:
+        # Access the saved courses_taken from the session state
+        courses_taken = st.session_state["courses_taken"]
+
     # Build the chat response
-    prompt = f"{course_data} + {input_text} + {courses_taken}"
+    prompt = f"This is course data for courses at UBC: {course_data} This is my question:, ({input_text} I have only taken these courses: {courses_taken})"
     llm = get_llm()
     conversation_with_summary = ConversationChain(
         llm=llm,

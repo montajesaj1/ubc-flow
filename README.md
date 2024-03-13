@@ -32,6 +32,8 @@ We weren't able to implement many functionalities due to time constraints, but t
 
 ## Credits
 
-alberto-escobar
-stevenxu27
-montajesaj1
+alberto-escobar <br>
+stevenxu27 <br>
+montajesaj1 <br>
+Shoryaveer
+
